@@ -39,7 +39,7 @@ const DotGroup = ({selectedPage, setSelectedPage}) => {
                 onClick={() => setSelectedPage('contact')}
             />
         </div>
-    )
-}
+    );
+};
 
 export default DotGroup

@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";
 import Navbar from "./scenes/Navbar";
-import DotGroup from "./scenes/DotGroup"
+import DotGroup from "./scenes/DotGroup";
+import Landing from "./scenes/Landing";
 
 function App() {
   //determines what page we are at
-  const [seletedPage, setSelectedPage] = useState('home');
+  const [selectedPage, setSelectedPage] = useState('home');
   const [istTopOfPage, setisTopOfPage] = useState(true);
   //checks if current screensize is above or below 1060px
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
@@ -22,14 +23,15 @@ function App() {
 
   return (
     <div className="app bg-deep-blue">
-      <Navbar istTopOfPage={istTopOfPage} seletedPage={seletedPage} setSelectedPage={setSelectedPage}/>
+      <Navbar istTopOfPage={istTopOfPage} selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
       <div className="w-5/6 mx-auto md:h-full">
         {isAboveMediumScreens && (
           <DotGroup 
-            seletedPage={seletedPage}
+            selectedPage={selectedPage}
             setSelectedPage={setSelectedPage}  
           />
         )}
+        <Landing setSelectedPage={setSelectedPage} />
       </div>
     </div>
     
