@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import SocialMediaIcons from "../components/SocialMediaIcons";
 
+
+
 const Landing = ({setSelectedPage}) => {
 
     const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
@@ -17,19 +19,19 @@ const Landing = ({setSelectedPage}) => {
                 {isAboveMediumScreens ? (
                     <div
                         className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20
-                            before:rounded-t-[400px] before:w-full before:max-w-[400px] before:h-full
-                            before:border-2 before:border-blue before:z-[-1]"    
+                            before:w-full before:max-w-[600px] before:h-full
+                            before:border-2 before:border-yellow before:z-[-1]"    
                     >
                         <img
-                            src="assets/profile-image.png"
+                            src="https://st4.depositphotos.com/11634452/41441/v/600/depositphotos_414416674-stock-illustration-picture-profile-icon-male-icon.jpg"
                             alt="profile"
-                            className="hover:filter hover:saturate-200 transition duration 500 z-10 w-full
+                            className="hover:filter hover:saturate-150 transition duration 500 z-10 w-full
                                 max-w-[400px] md:max-w-[600px]"
                         />
                     </div>
                 ) : (
                     <img
-                        src="assets/profile-image.png"
+                        src="https://st4.depositphotos.com/11634452/41441/v/600/depositphotos_414416674-stock-illustration-picture-profile-icon-male-icon.jpg"
                         alt="profile"
                         className="hover:filter hover:saturate-200 transition duration 500 z-10 w-full
                             max-w-[400px] md:max-w-[600px]"
@@ -90,7 +92,7 @@ const Landing = ({setSelectedPage}) => {
                         href="#contact"
                     >
                         <div
-                            className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex intems-center
+                            className="bg-dark-grey hover:text-red transition duration-500 w-full h-full flex intems-center
                                 justify-center font-playFair px-10 py-2.5"
                         >
                             Let's talk.
