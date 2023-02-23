@@ -21,7 +21,18 @@ const Project = ({ title, subtitle }) => {
         bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-grey`
 
     return (
-        <motion.div variants={projectVariant} className="relative">
+        <motion.div
+            className="relative"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0.5 }}
+            variants={{
+                hidden: { opacity: 0, scale: 0.8 },
+                visible: { opacity: 1, scale: 1} 
+            }}
+            
+        >
             <div className={overlayStyles}>
                 <p className="text-2xl font-playFair">
                     {title}
