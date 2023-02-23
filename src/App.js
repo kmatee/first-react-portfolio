@@ -28,7 +28,7 @@ function App() {
   }, []);
 
   return (
-    <div className="app bg-deep-blue">
+    <div className="app bg-dark-grey">
       <Navbar istTopOfPage={istTopOfPage} selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
       <div className="w-5/6 mx-auto md:h-full">
         {isAboveMediumScreens && (
