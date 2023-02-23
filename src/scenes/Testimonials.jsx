@@ -48,7 +48,8 @@ const Testimonials = () => {
                 >
                     <p className="font-playFair text-6xl">"</p>
                     <p className="text-center text-xl">
-                        Testimonial from a person. BLBALBALBLALBLALLBLA.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Maecenas posuere lobortis dui, a sagittis tellus.
                     </p>
                 </motion.div>
                 <motion.div
@@ -64,7 +65,8 @@ const Testimonials = () => {
                 >
                     <p className="font-playFair text-6xl">"</p>
                     <p className="text-center text-xl">
-                        Testimonial from a person. BLBALBALBLALBLALLBLA.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Maecenas posuere lobortis dui, a sagittis tellus.
                     </p>
                 </motion.div>
                 <motion.div
@@ -80,7 +82,8 @@ const Testimonials = () => {
                 >
                     <p className="font-playFair text-6xl">"</p>
                     <p className="text-center text-xl">
-                        Testimonial from a person. BLBALBALBLALBLALLBLA.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Maecenas posuere lobortis dui, a sagittis tellus.
                     </p>
                 </motion.div>
 

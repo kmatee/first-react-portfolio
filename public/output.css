@@ -1082,6 +1082,11 @@ video {
   color: rgb(253 204 73 / var(--tw-text-opacity));
 }
 
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .placeholder-opaque-black::-webkit-input-placeholder{
   color: rgba(0,0,0,0.35);
 }

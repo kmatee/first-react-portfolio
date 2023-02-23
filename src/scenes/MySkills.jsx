@@ -72,8 +72,8 @@ const MySkills = () => {
                         <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
                     </div>
                     <p className="mt-5">
-                        Whatever experience you have you can list it here. BLALBALBA experience
-                        experience BLBALBALB experience.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi semper lorem ut mauris condimentum, 
+                    ultricies lobortis mauris pulvinar. Vivamus nec.
                     </p>
                 </motion.div>
                 {/* Skill 2 */}
@@ -96,8 +96,8 @@ const MySkills = () => {
                         <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
                     </div>
                     <p className="mt-5">
-                        Whatever experience you have you can list it here. BLALBALBA experience
-                        experience BLBALBALB experience.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi semper lorem ut mauris condimentum, 
+                    ultricies lobortis mauris pulvinar. Vivamus nec.
                     </p>
                 </motion.div>
                 {/* Skill 3 */}
@@ -120,8 +120,8 @@ const MySkills = () => {
                         <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
                     </div>
                     <p className="mt-5">
-                        Whatever experience you have you can list it here. BLALBALBA experience
-                        experience BLBALBALB experience.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi semper lorem ut mauris condimentum, 
+                    ultricies lobortis mauris pulvinar. Vivamus nec.
                     </p>
                 </motion.div>
             </div>
