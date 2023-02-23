@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";
+import LineGradient from "./components/LineGradient";
 import Navbar from "./scenes/Navbar";
 import DotGroup from "./scenes/DotGroup";
 import Landing from "./scenes/Landing";
-import LineGradient from "./components/LineGradient";
 import MySkills from "./scenes/MySkills";
 import Projects from "./scenes/Projects";
+import Testimonials from "./scenes/Testimonials";
 
 function App() {
   //determines what page we are at
@@ -44,6 +45,11 @@ function App() {
       <div className="w-5/6 mx-auto">
           <Projects />
       </div>
+      <linearGradient />
+      <div className="w-5/6 mx-auto md:h-full">
+          <Testimonials />
+      </div>
+      
 
     </div>
     
