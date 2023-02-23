@@ -119,7 +119,7 @@ const Contact = () => {
                                 {errors.message.type === "maxLength" && "The message can'tbe longer than 1500 characters"}
                             </p>
                         )}
-                        <button className="p5 bg-yellow font-semibold text-deep-blue mt-5 hover:bg-red
+                        <button className="p-4 bg-yellow font-semibold text-deep-blue mt-5 hover:bg-red
                             hover:text-white transition duration-500" type="submit">
                             SEND ME A MESSAGE
                         </button>
