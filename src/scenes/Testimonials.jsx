@@ -25,7 +25,9 @@ const Testimonials = () => {
                 <p className="font-playFair font-semibold text-4xl mb-5 text-red">
                     TESTIMONIALS
                 </p>
-                <LineGradient width="mx-auto w-2/5" />
+                <div className="flex justify-center mt-5 md:justify-start md:w-100">
+                    <LineGradient width="w-2/4" />
+                </div>
                 <p className="mt-10">
                     This is going to be the testimonials section, where you can list feedback from
                     partners or former bosses.
